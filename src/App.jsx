@@ -1,10 +1,16 @@
 import "./App.css";
+import Accordion from "./Components/Accordion";
+import InputForm from "./Components/InputForm";
+import Travel from "./Components/Travel";
+import Todo from "./ToDo/Todo";
 
 function App() {
   return (
     <>
-      <p>Hello World</p>
-      <p>React Component</p>
+      {/* <InputForm /> */}
+      {/* <Travel />/ */}
+      {/* <Accordion /> */}
+      <Todo />
     </>
   );
 }
